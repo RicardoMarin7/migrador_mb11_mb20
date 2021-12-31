@@ -1,0 +1,20 @@
+{
+  "name": "migrador_mb11_mb20",
+  "version": "1.0.0",
+  "description": "Migrador de versión 2011 a 2020",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "author": "Ricardo Marin",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "moment": "^2.29.1",
+    "rest-mssql-nodejs": "^1.0.10"
+  }
+}
